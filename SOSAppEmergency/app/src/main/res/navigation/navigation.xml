@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sosappemergency.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_manageContactsFragment"
+            app:destination="@id/manageContactsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageContactsFragment"
+        android:name="com.example.sosappemergency.ManageContactsFragment"
+        android:label="ManageContactsFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.sosappemergency.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>

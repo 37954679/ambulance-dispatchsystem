@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SOSAppEmergency</string>
+    <string name="locus_rationale_title">Location Permission</string>
+    <string name="locus_rationale_message">To use this app you need to allow location.</string>
+    <string name="locus_permission_blocked_title">Permission Denied</string>
+    <string name="locus_permission_blocked_message">To use this app you need to allow location access permission.</string>
+    <string name="locus_location_resolution_title">Location Permission Resolution</string>
+    <string name="locus_location_resolution_message">To use this app you need to allow location..</string>
+</resources>
